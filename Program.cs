@@ -26,35 +26,52 @@ namespace ConsoleApp2023
 			//string result4 = date.ToString("yyyy/MM/dd"); // 實務上比較常這麼寫
 			//Console.WriteLine(result4);
 
-			int a = 100;
-			Console.WriteLine("C");
-			Console.WriteLine(a.ToString("c"));
-			Console.WriteLine(a.ToString("c0"));
+			//int a = 100;
+			//Console.WriteLine("C");
+			//Console.WriteLine(a.ToString("c"));
+			//Console.WriteLine(a.ToString("c0"));
 
-			Console.WriteLine("D");
-			Console.WriteLine(a.ToString("d"));
-			Console.WriteLine(a.ToString("d5"));
+			//Console.WriteLine("D");
+			//Console.WriteLine(a.ToString("d"));
+			//Console.WriteLine(a.ToString("d5"));
 
-			double b = 12.345;
-			Console.WriteLine("F");
-			Console.WriteLine(b.ToString("f"));
-			Console.WriteLine(b.ToString("f1"));
-			Console.WriteLine(b.ToString("f3"));
-			Console.WriteLine(b.ToString("f4"));
+			//double b = 12.345;
+			//Console.WriteLine("F");
+			//Console.WriteLine(b.ToString("f"));
+			//Console.WriteLine(b.ToString("f1"));
+			//Console.WriteLine(b.ToString("f3"));
+			//Console.WriteLine(b.ToString("f4"));
 
-			b = 1234567890.78;
-			Console.WriteLine("N");
-			Console.WriteLine(b.ToString("n"));
-			Console.WriteLine(b.ToString("n1"));
-			Console.WriteLine(b.ToString("n0"));
+			//b = 1234567890.78;
+			//Console.WriteLine("N");
+			//Console.WriteLine(b.ToString("n"));
+			//Console.WriteLine(b.ToString("n1"));
+			//Console.WriteLine(b.ToString("n0"));
 
-			b = 0.1234567;
-			Console.WriteLine("P");
-			Console.WriteLine(b.ToString("p"));
-			Console.WriteLine(b.ToString("p1"));
-			Console.WriteLine(b.ToString("p2"));
-			b = 0.5;
-			Console.WriteLine(b.ToString("p2"));
+			//b = 0.1234567;
+			//Console.WriteLine("P");
+			//Console.WriteLine(b.ToString("p"));
+			//Console.WriteLine(b.ToString("p1"));
+			//Console.WriteLine(b.ToString("p2"));
+			//b = 0.5;
+			//Console.WriteLine(b.ToString("p2"));
+
+			//int number1 = 10, number2 = 99;
+
+			//// step 1,先用 temp變數存放 number1 值
+			//int temp = number1;
+
+			//// step 2, 異動 number1 值
+			//number1 = number2;
+
+			//// step 3, 異動 number2 值
+			//number2 = temp;
+
+			//Console.WriteLine($"對調的結果: number1={number1}, number2={number2}");
+
+
+
+
 
 		}
     }
